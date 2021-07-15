@@ -6,12 +6,12 @@
 //
 
 import UIKit
+
 class ViewController: UIViewController {
 
-    @IBOutlet var infoText3: UILabel!
-    @IBOutlet var infoText2: UILabel!
-    @IBOutlet var mainImage: UIImageView!
     @IBOutlet var infoText: UILabel!
+    @IBOutlet var infoText2: UILabel!
+    @IBOutlet var infoText3: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
