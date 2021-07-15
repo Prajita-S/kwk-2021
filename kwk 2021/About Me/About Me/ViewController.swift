@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var mainImage: UIImageView!
     @IBOutlet var infoText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +17,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func factButton(_ sender: UIButton) {
+        let infoText.text = "I was born and raised in Nepal where I stayed 9 years of my life."
     }
     
 }

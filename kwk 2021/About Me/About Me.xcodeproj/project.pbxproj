@@ -11,10 +11,10 @@
 		A8787192269F623B00FF0606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8787191269F623B00FF0606 /* SceneDelegate.swift */; };
 		A8787194269F623B00FF0606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8787193269F623B00FF0606 /* ViewController.swift */; };
 		A8787197269F623B00FF0606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8787195269F623B00FF0606 /* Main.storyboard */; };
-		A8787199269F623C00FF0606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8787198269F623C00FF0606 /* Assets.xcassets */; };
 		A878719C269F623C00FF0606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A878719A269F623C00FF0606 /* LaunchScreen.storyboard */; };
 		A87871A7269F623C00FF0606 /* About_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87871A6269F623C00FF0606 /* About_MeTests.swift */; };
 		A87871B2269F623C00FF0606 /* About_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87871B1269F623C00FF0606 /* About_MeUITests.swift */; };
+		A87871C026A0740D00FF0606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87871BF26A0740D00FF0606 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		A8787191269F623B00FF0606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A8787193269F623B00FF0606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8787196269F623B00FF0606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A8787198269F623C00FF0606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A878719B269F623C00FF0606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A878719D269F623C00FF0606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A87871A2269F623C00FF0606 /* About MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "About MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		A87871AD269F623C00FF0606 /* About MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "About MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87871B1269F623C00FF0606 /* About_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_MeUITests.swift; sourceTree = "<group>"; };
 		A87871B3269F623C00FF0606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87871BF26A0740D00FF0606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 				A8787191269F623B00FF0606 /* SceneDelegate.swift */,
 				A8787193269F623B00FF0606 /* ViewController.swift */,
 				A8787195269F623B00FF0606 /* Main.storyboard */,
-				A8787198269F623C00FF0606 /* Assets.xcassets */,
+				A87871BF26A0740D00FF0606 /* Assets.xcassets */,
 				A878719A269F623C00FF0606 /* LaunchScreen.storyboard */,
 				A878719D269F623C00FF0606 /* Info.plist */,
 			);
@@ -232,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A878719C269F623C00FF0606 /* LaunchScreen.storyboard in Resources */,
-				A8787199269F623C00FF0606 /* Assets.xcassets in Resources */,
+				A87871C026A0740D00FF0606 /* Assets.xcassets in Resources */,
 				A8787197269F623B00FF0606 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
