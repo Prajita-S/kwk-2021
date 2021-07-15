@@ -6,9 +6,10 @@
 //
 
 import UIKit
-
 class ViewController: UIViewController {
 
+    @IBOutlet var infoText3: UILabel!
+    @IBOutlet var infoText2: UILabel!
     @IBOutlet var mainImage: UIImageView!
     @IBOutlet var infoText: UILabel!
     override func viewDidLoad() {
@@ -17,7 +18,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func factButton(_ sender: UIButton) {
-        let infoText.text = "I was born and raised in Nepal where I stayed 9 years of my life."
+        infoText.text = "My hobbies are listening to music, drawing, painting, self-teaching subjects, and watching tons of YouTube."
+        infoText2.text = "Being interested in math and art, I want to purse a career in web design or app development."
+        infoText3.text = "I was born and raised in Nepal where I stayed 9 years of my life."
     }
     
 }
