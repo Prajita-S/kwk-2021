@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8AA71F626A7DB21001DA5AC /* optionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA71F526A7DB21001DA5AC /* optionsViewController.swift */; };
+		A8AA71FC26A89975001DA5AC /* italianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA71FB26A89975001DA5AC /* italianViewController.swift */; };
+		A8AA71FE26A899EF001DA5AC /* americanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA71FD26A899EF001DA5AC /* americanViewController.swift */; };
+		A8AA720026A89A17001DA5AC /* mexicanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA71FF26A89A17001DA5AC /* mexicanViewController.swift */; };
+		A8AA720226AA1919001DA5AC /* asianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA720126AA1919001DA5AC /* asianViewController.swift */; };
 		A8BBDEAB26A72D37001C49C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BBDEAA26A72D37001C49C7 /* AppDelegate.swift */; };
 		A8BBDEAD26A72D37001C49C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BBDEAC26A72D37001C49C7 /* SceneDelegate.swift */; };
 		A8BBDEAF26A72D37001C49C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BBDEAE26A72D37001C49C7 /* ViewController.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8AA71F526A7DB21001DA5AC /* optionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionsViewController.swift; sourceTree = "<group>"; };
+		A8AA71FB26A89975001DA5AC /* italianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = italianViewController.swift; sourceTree = "<group>"; };
+		A8AA71FD26A899EF001DA5AC /* americanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = americanViewController.swift; sourceTree = "<group>"; };
+		A8AA71FF26A89A17001DA5AC /* mexicanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mexicanViewController.swift; sourceTree = "<group>"; };
+		A8AA720126AA1919001DA5AC /* asianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asianViewController.swift; sourceTree = "<group>"; };
 		A8BBDEA726A72D37001C49C7 /* GOlocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOlocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BBDEAA26A72D37001C49C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8BBDEAC26A72D37001C49C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +115,11 @@
 				A8BBDEAC26A72D37001C49C7 /* SceneDelegate.swift */,
 				A8BBDEAE26A72D37001C49C7 /* ViewController.swift */,
 				A8BBDEB026A72D37001C49C7 /* Main.storyboard */,
+				A8AA720126AA1919001DA5AC /* asianViewController.swift */,
+				A8AA71FF26A89A17001DA5AC /* mexicanViewController.swift */,
+				A8AA71FD26A899EF001DA5AC /* americanViewController.swift */,
+				A8AA71FB26A89975001DA5AC /* italianViewController.swift */,
+				A8AA71F526A7DB21001DA5AC /* optionsViewController.swift */,
 				A8BBDEB626A72D38001C49C7 /* Assets.xcassets */,
 				A8BBDEB826A72D38001C49C7 /* LaunchScreen.storyboard */,
 				A8BBDEBB26A72D38001C49C7 /* Info.plist */,
@@ -261,9 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8AA71F626A7DB21001DA5AC /* optionsViewController.swift in Sources */,
+				A8AA720026A89A17001DA5AC /* mexicanViewController.swift in Sources */,
 				A8BBDEAF26A72D37001C49C7 /* ViewController.swift in Sources */,
+				A8AA71FC26A89975001DA5AC /* italianViewController.swift in Sources */,
+				A8AA720226AA1919001DA5AC /* asianViewController.swift in Sources */,
 				A8BBDEB526A72D37001C49C7 /* GOlocal.xcdatamodeld in Sources */,
 				A8BBDEAB26A72D37001C49C7 /* AppDelegate.swift in Sources */,
+				A8AA71FE26A899EF001DA5AC /* americanViewController.swift in Sources */,
 				A8BBDEAD26A72D37001C49C7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
